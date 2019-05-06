@@ -1,0 +1,89 @@
+body
+{
+    widows: 100%;
+    height:100%;
+    background-image: url('onePieceBackGround.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#container
+{
+    width:100%;
+    height:100%;
+    margin:10px;
+
+}
+div
+{
+    margin:5px;
+    padding:5px;
+    border-radius: 10px;
+}
+.A
+{
+    display:inline-block;
+    width:30%;
+}
+#T,#hide
+{
+    display: none;
+}
+#showT
+{
+    display:block;
+}
+p
+{
+    font-size: 25px;
+    margin:5px;
+    color:rgb(144, 192, 255)
+}
+#bla1
+{
+    width:60%;
+    height:237px;
+    font-size: 20px;
+}
+.B
+{
+    float:left;
+}
+table
+{
+    width:100%;
+    margin:5px 15px 5px 0;
+}
+td
+{
+    border:2px solid black;
+    text-align: center;
+    padding:2px;
+    font-size: 20px;
+    border-radius: 10px;
+    color:rgb(144, 192, 255);
+    background-color: rgba(18, 38, 126, 0.822);
+}
+img[alt=""]
+{
+    height:100px;
+    margin-bottom: -20px;
+}
+span
+{
+    font-size: 30px;
+    text-decoration: underline;
+    color:rgba(18, 38, 126);
+}
+span:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    padding:5px;
+    color:rgb(7, 100, 250);
+}
+#Video
+{
+    margin: 10px;
+    padding:10px;
+}
+

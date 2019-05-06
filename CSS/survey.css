@@ -1,0 +1,87 @@
+body
+{
+  background-image: url('novelMovie.jpg');
+  background-repeat: no-repeat;
+  background-size:cover; 
+}
+#SignUpForm,#A,#H,#texthide
+{
+  display:none;
+}
+
+#showSign,#B
+{
+  display:inline;
+}
+#showText
+{
+  display:inline;
+}
+/*أول سطرين تحت خلو الفور تيجي في النص*/
+#Form
+{
+  width:800px;
+  margin:0 auto;
+  padding:30px;
+  background-color:rgb(232, 158, 255);
+  border-radius: 10px;
+  border:2px solid rgb(56, 4, 104);
+}
+/*-------------------------------------------*/
+label
+{
+  font-size: 20px;
+  color:rgb(56, 4, 104);
+}
+input
+{
+  margin:10px 0 10px 30px;
+  height:19px;
+}
+legend
+{
+  color:rgb(70, 1, 30);
+  font-size:30px;
+}
+fieldset
+{
+  border-radius: 10px;
+  border:3px solid rgb(157, 0, 185);
+}
+span
+{
+ color:crimson;
+ font-size:15px;
+}
+input:focus
+{
+  color:white;
+  background-color: black;
+}
+input[type="submit"]
+{
+  font-size:25px;
+  height:30px;
+  margin-left:-3px;
+  font-family: "Courier New", Courier, monospace;
+}
+p,a
+{
+  font-size:25px
+}
+a:hover
+{
+  color:darkmagenta;
+  padding:5px;
+}
+#showText
+{
+  font-family: Georgia, serif;
+  color:rgb(160, 1, 112);
+  font-style: italic;
+  font-size:30px;
+}
+textarea
+{
+  max-width: 700px;
+}

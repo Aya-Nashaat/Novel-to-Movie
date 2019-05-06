@@ -1,0 +1,132 @@
+body{background-color:purple;
+    margin: 20px 22px;
+    }
+img{
+width:139px;
+height:168px;
+}
+    aside
+    {
+    overflow:auto;
+    }
+    
+    th{background-color:rebeccapurple; color:cornsilk;font-variant: small-caps;}
+    td{background-color:plum; color:rebeccapurple;font-size:1.1em; }
+    tr:hover{background-color: antiquewhite;}
+    table,th,td{border:1px solid black;}
+    table{
+        width:400px;
+        overflow-y: scroll;
+        border-collapse: collapse;
+        
+    }
+    th{text-align: justify;}
+   
+    p{text-transform: capitalize;
+    }
+    p{font-family: cursive;
+    }
+    
+    header{
+        background-color:silver;
+        border: 2px dotted pink;
+        border-radius: 6px;
+        direction:ltr;
+        margin: 0px 9px 19px;
+        color: darkred;
+        
+    }
+   
+    nav{
+        direction:ltr;
+     margin:  19px 19px;
+    }
+    #r2 {
+       
+         background:url(filmo.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        border: 2px solid white;
+        border-radius: 6px;
+        color:khaki;
+  
+    }
+    #r2 p{background-color:rgba(190,100,90,0.2);
+    padding-top: 3px;
+    }
+    #D1{background-color:darkmagenta;
+    width: auto;
+        height: 100%;
+    
+    }
+    #Doo{
+        
+         background-color:violet;
+       
+        border-radius: 6px;
+        
+        
+    }
+    #r4 {
+        direction:ltr;
+        margin: 20px 3% 0 0;                 
+        border-radius: 6px;
+        border: 2px outside red;
+        background-color: lightpink;
+        color: darkred;
+        width:47%;
+        max-height:400px ;
+        overflow-y: scroll;
+        float: left;
+    }
+    #add{
+        width: 43%;
+        border: 1px dotted lightpink;
+        text-align: center;
+        float:right;
+        border-radius: 9px;
+        color: darkgoldenrod;
+        margin: 20px 0 0px 2%;
+        
+    }
+    #add img{
+        width:85%;
+        height: auto;
+    }
+
+    #r5{
+    width:94.9%;
+        height:10%;
+        color:bisque;
+        border: 5px ridge pink;
+       background-color:mediumvioletred;
+        border-radius: 5px;
+       font-style:italic;
+   position: fixed;
+        text-align: right;
+        padding-right:1.2%;
+        
+    } 
+    #D2{background-color: lightpink;}
+#T
+{
+    display:none;
+} 
+#openT
+{
+    display:inline;
+}
+span
+{
+    font-size:30px;
+    text-decoration: underline;
+}
+span:hover
+{
+  color:rgb(222, 137, 233)  ;
+  text-decoration: underline;
+}
+p,em
+{
+    margin:10px;
+}

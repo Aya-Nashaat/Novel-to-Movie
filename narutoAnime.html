@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS\narutoAnime.css">
+    <script src="JS\narutoAnime.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div style="  background-color: rgba(163, 162, 162, 0.822);margin-right:30px;">
+            <h1>Naruto Anime</h1>
+            <p>The Naruto anime, directed by Hayato Date and produced by<span onclick="Actors()" ondblclick="noActors()">Studio Pierrot</span>  and TV Tokyo,
+                 premiered in Japan on October 3, 2002, and concluded on February 8,
+                  2007 after 220 episodes on TV Tokyo.
+            </p>
+        </div>
+        <div id="T" style="  background-color: rgba(163, 162, 162, 0.822);margin-right:30px;">
+            <p class="A" id="bla1">
+                Pierrot Co., Ltd. (株式会社ぴえろ Kabushiki-gaisha Piero) is a Japanese animation studio,
+                founded in 1979 by former employees of Tatsunoko Production and Mushi Production.
+                Its headquarters is located in Mitaka, Tokyo.[1] Pierrot is renowned for several worldwide 
+                popular anime series, such as Bleach, Naruto, Yu Yu Hakusho, Tokyo Ghoul, Beelzebub,
+                Great Teacher Onizuka and several others.
+                The company has a logo of the face of a clown. "Piero" is a Japanese loanword for clown,
+                adopted from the classical character of Pierrot.
+                Yu Yu Hakusho and Saiyuki, two of the company's anime series,
+                won the Animage Anime Grand Prix Award in 1994 and 1995, and 2000, respectively.
+            </p>
+            <img src="CSS/Studio_Pierrot.jpg" class="A">
+        </div>
+        <span  onclick="Table()" ondblclick="noTable()">Voice Actors</span>
+        <table id="hide">
+            <tr>
+                <td>Voice Actor</td>
+                <td>character</td>
+                <td>Voice Actor</td>
+                <td>character</td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Junko_Takeuchi"><img src="CSS/junko-takeuchi-70.9.jpg"alt=""></a><p>JUNKO TAKEUCHI</p></td>
+                <td>Naruto</td>
+                <td><a href="https://www.behindthevoiceactors.com/Hochu-Otsuka/"><img src="CSS/jiraya.jpg"alt=""></a><p>HOCHU OTSUKA</p></td>
+                <td>jiraiya</td> 
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Noriaki_Sugiyama"><img src="CSS/sasuke.jpg"alt=""></a><p>NORIAKI SUGIYAMA</p></td>
+                <td>Sasuke</td>
+                <td><a href="https://www.behindthevoiceactors.com/Kujira/"><img src="CSS/oritchimaru.jpg"alt=""></a><p>KUJIRA</p></td>
+                <td>Oritchimaru</td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Chie_Nakamura"><img src="CSS/sakura.jpg"alt=""></a><p>CHIE NAKAMURA</p></td>
+                <td>Sakura</td>
+                <td><a href="https://www.behindthevoiceactors.com/Masako-Katsuki/"><img src="CSS/tsunade.jpg"alt=""></a><p>MASAKO KATSUKI</p></td>
+                <td>Tsunade</td>
+            </tr>
+        </table>
+        <div id="Video">
+            <span class="B">An Openning Video</span>
+            <iframe class="B" width="560" height="315" src="https://www.youtube.com/embed/aJRu5ltxXjc"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>

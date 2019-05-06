@@ -1,0 +1,34 @@
+ body {
+       background-image: url("khan.jpg"); 
+       background-attachment: fixed;
+       background-repeat: repeat-x; 
+       background-size: 100%;  }
+                
+h1 {
+    text-align: center ; 
+    color: rgb(199, 177, 56); 
+    font-size:50px;} 
+     
+.P {
+    float: right; 
+    color:rgb(242, 255, 0); 
+    background-color: rgba(37, 83, 121, 0.507); 
+    border-radius:10px; 
+    width: 50%;  height: 50%;
+    padding: 10px;  margin: 20px; 
+    font-size: 30px;}
+    
+
+#E {color: rgb(199, 209, 0); float: left; margin: 10px;}     
+
+table {
+       background-color: rgba(27, 105, 129, 0.768);
+        color: rgb(233, 206, 55);    font-size: 20px;
+       font-style: italic;        
+       margin: 20px;   border: 3px double;
+       width: 50%;   height: 350px;
+       border-radius:15px; }
+
+video {
+        float: right; width: 100%;
+}       

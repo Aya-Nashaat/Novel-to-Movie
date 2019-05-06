@@ -1,0 +1,156 @@
+
+    body
+{
+    background-image: url('england.png');
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    background-color:gainsboro;
+}
+#container
+{
+    
+    margin: 20px 0 0 15px;
+    width:auto;
+    height:100%;
+}
+/*---div with D1 Id style---*/
+#D1
+{
+    background-color: rgba(213, 150, 238, 0.8);
+    border:3px solid  rgba(213, 150, 238, 0.5);
+    height:15%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-style:italic ;
+    font-size: 50px;
+    letter-spacing: -5px;
+    color:rgb(88, 2, 88)
+}
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-style:italic ;
+    color:rgb(88, 2,88);
+    font-size:30px; 
+}
+/*-------------------------*/
+/*2nd div in the page
+note that p and span not only specific for this div
+but for any other span and p*/
+#D2
+{
+    background-color: rgba(213, 150, 238, 0.8);
+    border:3px solid  rgba(213, 150, 238, 0.5);
+    border-radius: 10px;
+}
+span
+{
+    font-style:italic ;
+    color:rgb(61, 2, 88);
+    font-size:30px; 
+    margin:10px;
+}
+p
+{
+    font-size: 25px;
+    padding:0 2% 0 2%;
+    text-indent:5%;
+}
+p:first-letter
+{
+    font-size: 40px;
+    color:rgb(92, 47, 105);
+}    
+/*---------------------------------------*/
+/*first: the D3 div contain #artists & #abouthim (أسماء ال2 ديف اللي جوا دي3)
+el child class da 3shan(اجيب ال2 ديف جمب بعض مش أكتر)
+el id #aboutHim da (مش هيظهر غير اما ادوس عاللينك)
+(لكن قبل ماادوس عاللينك)
+fa el id #aboutHim haykoon--->#hide(دا بيخفي الجزء اليمين بتاع الكاتب )*/    
+#D3
+{
+    height:45%;
+    width:auto;
+    overflow: hidden;
+}
+    .child
+    {
+        float:left;
+        height:auto;
+        overflow: auto;
+    }
+        #artists
+        {
+            width:30%;
+            margin:5px 5% 0 0;
+            border-radius: 10px;
+            background-color: rgba(213, 150, 238, 0.8);
+            
+        }
+/*ستايل الليست واللينكات*/        
+label,h3
+{
+    font-style:italic ;
+    color:rgb(61, 2, 88);
+    font-size:35px; 
+    margin:5%;
+}
+a
+{
+    font-size: 25px;
+}
+dt
+{
+   font-size:25px;
+
+} 
+.workLink:hover
+{
+    padding:3%;
+    color:rgb(97, 0, 76);
+}
+/*---------------------------------*/       
+        .hide
+        {
+            display:none;
+        }
+        #aboutHim
+        {
+            width:60%;
+            height:600px;
+            background-color: rgba(213, 150, 238, 0.8);
+            margin:5px 0 0 5%;
+            border-radius: 10px;
+        }       
+                .A
+                {
+                    width:70%;
+                    float:left;
+                    padding:5px 5%;
+                    margin:0 8% 0 0;
+                }
+                td,th
+                {
+                    border:2px solid black;
+                    font-size: 130%;
+                    text-align: center;
+                }
+                img
+                {
+                    width:20%;
+                    height:150px;
+                    margin-top: 15px;
+                }
+               
+/*الليستات اللي جوالكلاس دا فقط*/                
+.A li
+{
+    font-size:25px;
+    padding:10px;
+}                

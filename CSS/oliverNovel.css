@@ -1,0 +1,94 @@
+p{
+color: darkblue;
+}
+body{
+font-family: serif;
+margin:20px 5px;
+background-image: url(STORY.jpg);
+}
+
+/*اول جزء فى الصفحة*/
+
+nav{
+   
+    background-color:cadetblue;
+    border-radius: 8px; 
+}
+
+nav h1,#dis
+{
+    color: darkred;
+    padding:10px;
+    text-align: center;
+}
+
+    /* الجزء الاساسى
+تانى جزء فى الصفحة*/
+header img{
+    max-width: 44%;
+    height:13%;
+float:right;
+
+}
+header{
+max-width:50%;
+height:470px;
+background-color: lightblue;
+float: left;
+padding: 9px 17px;
+overflow-y: scroll;
+border:2px dashed lightgrey;
+border-radius: 8px;
+margin:5px 5px 10px 5px;
+} 
+header h3{
+    
+color:firebrick;
+}     
+/*الجزء الجانبى من الصفحة*/          
+aside{
+float:right;
+max-width:28%;
+height:37%;
+border:2px dotted cornflowerblue;
+background-color: lightblue;
+padding: 9px 17px;
+border-radius: 8px;
+}
+/*صورة هتا floatزى aside*/
+aside img{
+    float:inherit;
+}
+aside ul{list-style-type: square;}
+aside li{color:chocolate;}
+#ur{
+text-align: center;
+border: 2px dotted lightgrey;
+    
+}
+aside img{
+  
+    margin-left: 80px;
+}
+    /*رابط ما بين القصة والفيلم*/
+
+footer{
+background-color: lightblue;
+text-align: center;
+clear: both;
+border-radius:8px ;
+height:15%;
+width: 100%;
+margin:10px 5px 5px 5px;
+padding:10px;
+}
+/*div
+الخاص بال
+footer
+
+#d5{
+    margin-bottom: 0px;
+    
+} */  
+
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> الكود ده خاص بالريسبونزف اللى المفروض يشتغل لو تعمل على الموبيل*/
